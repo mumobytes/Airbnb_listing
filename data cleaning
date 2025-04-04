@@ -1,0 +1,14 @@
+import pandas as pd
+import numpy as np
+import seaborn as sns 
+import matplotlit.pyplot as plt
+import csv
+
+#import the csv into the compiler
+Listing csv = pd.read_csv(listing.csv, encoding = 'ISO- 8859-1', low_memory = False)
+  
+#get info about the data frame
+listing_df.info()
+
+
+
